@@ -40,6 +40,7 @@ def int_to_en(num):
     else: return int_to_en(num // t) + ' trillion, ' + int_to_en(num % t)
 
     raise AssertionError('num is too large: %s' % str(num))
+# Only the code below is mine, the above one is from some part of the internet 
 
 print('To know the values of a hailstone number pattern:- ')
 n = int(input('Enter a number: '))
